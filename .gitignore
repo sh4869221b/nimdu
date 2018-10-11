@@ -4,3 +4,4 @@ nimcache/
 bin/
 .vscode
 .idea
+*.exe

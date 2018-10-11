@@ -1,1 +1,1 @@
-doAssert(1 + 1 == 3)
+doAssert(1 + 1 == 2)
