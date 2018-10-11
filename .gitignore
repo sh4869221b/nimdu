@@ -1,0 +1,6 @@
+﻿### nim
+
+nimcache/
+bin/
+.vscode
+.idea
