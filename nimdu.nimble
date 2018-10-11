@@ -5,6 +5,7 @@ author        = "sh4869221"
 description   = "A new awesome nimble package"
 license       = "MIT"
 srcDir        = "src"
+binDir        = "bin"
 bin           = @["nimdu"]
 
 # Dependencies
