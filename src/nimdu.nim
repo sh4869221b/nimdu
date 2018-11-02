@@ -26,3 +26,4 @@ for f in walkDirRec(baseDir):
     echo fmt"{f}"
 echo fmt"{size.formatSize}"
 echo fmt"file is {filecount}"
+echo fmt"1 file is {(int(int(size)/filecount)).formatSize}"
