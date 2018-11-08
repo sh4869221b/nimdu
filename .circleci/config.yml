@@ -23,4 +23,4 @@ jobs:
 
       # run tests!
       - run: nimble build
-
+      - run: nimble test
