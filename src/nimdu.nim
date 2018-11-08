@@ -11,7 +11,7 @@ Options:
 
 import os, strformat, strutils
 import docopt
-import nimdu/common
+import nimdupkg/common
 
 let args = docopt(doc, version = nimduVersion)
 

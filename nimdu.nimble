@@ -1,12 +1,12 @@
 import ospaths
 template thisModuleFile: string = instantiationInfo(fullPaths = true).filename
 
-when fileExists(thisModuleFile.parentDir / "src/nimdu/common.nim"):
+when fileExists(thisModuleFile.parentDir / "src/nimdupkg/common.nim"):
   # In the git repository the Nimble sources are in a ``src`` directory.
-  import src/nimdu/common
+  import src/nimdupkg/common
 else:
   # When the package is installed, the ``src`` directory disappears.
-  import nimdu/common
+  import nimdupkg/common
 
 # Package
 
@@ -17,6 +17,7 @@ license       = "MIT"
 srcDir        = "src"
 binDir        = "bin"
 bin           = @["nimdu"]
+installExt    = @["nim"]
 
 # Dependencies
 
