@@ -2,14 +2,18 @@ let doc = """
 nimdu
 
 Usage:
-  nimdu
-  nimdu <dir>
+  nimdu [options] [<dir>]
+
+Options:
+  -h --help    Show this screen.
+  -v --version    Show version.
 """
 
 import os, strformat, strutils
 import docopt
+import nimdupkg/common
 
-let args = docopt(doc, version = "nimdu 0.2.0")
+let args = docopt(doc, version = nimduVersion)
 
 var 
   baseDir: string
@@ -26,3 +30,4 @@ for f in walkDirRec(baseDir):
     echo fmt"{f}"
 echo fmt"{size.formatSize}"
 echo fmt"file is {filecount}"
+echo fmt"1 file is {(int(int(size)/filecount)).formatSize}"
