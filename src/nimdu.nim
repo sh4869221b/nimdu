@@ -2,10 +2,7 @@ let doc = """
 nimdu
 
 Usage:
-  nimdu
-  nimdu <dir>
-  nimdu (-h | --help)
-  nimdu (-v | --version)
+  nimdu [options] [<dir>]
 
 Options:
   -h --help    Show this screen.

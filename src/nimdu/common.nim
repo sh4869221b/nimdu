@@ -1,1 +1,1 @@
-let nimduVersion* = "0.2.0"
+let nimduVersion* = "0.2.1"
