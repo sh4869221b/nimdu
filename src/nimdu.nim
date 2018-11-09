@@ -5,7 +5,7 @@ Usage:
   nimdu [options] [<dir>]
 
 Options:
-  -h --help    Show this screen.
+  -h --help       Show this screen.
   -v --version    Show version.
 """
 
